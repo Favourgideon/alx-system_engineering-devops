@@ -1,4 +1,2 @@
 #!/bin/bash
-
-file="*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
-content="Best School"
+echo "Best School" >\\\*\\\\"'\"Best School\"\\'\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\)
