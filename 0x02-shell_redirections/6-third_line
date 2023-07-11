@@ -1,7 +1,2 @@
 #!/bin/bash
-
-file="iacta"
-line_number=3
-line=$(head -n "$line_number" "$file" | tail -n 1)
-
-echo "$line"
+head -3 iacta | tail -1
