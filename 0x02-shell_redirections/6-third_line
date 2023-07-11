@@ -1,5 +1,7 @@
 #!/bin/bash
 file="iacta"
 line_number=3
-line=$(sed "${line_number}q;d" "$file")
+
+line=$(head -n "$line_number" "$file" | tail -n 1)
+
 echo "$line"
