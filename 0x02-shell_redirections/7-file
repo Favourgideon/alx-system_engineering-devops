@@ -2,6 +2,3 @@
 
 file="*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
 content="Best School"
-
-echo "$content" > "$file"
-echo "File '$file' created with content: '$content'"
